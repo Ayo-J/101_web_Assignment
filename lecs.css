@@ -189,10 +189,39 @@ body {
       background:url("lecs/manoja.jpg") no-repeat top center;
     background-size:cover
   }
-  .bg-chalani {
-      background:url("lecs/manoja.jpg") no-repeat top center;
+  .bg-pramudya {
+      background:url("lecs/pramudya.jpg") no-repeat top center;
     background-size:cover
   }
+   .bg-nethmi {
+      background:url("lecs/nethmi.jpg") no-repeat top center;
+    background-size:cover
+  }
+  
+   .bg-chaminda {
+      background:url("lecs/chaminda.webp") no-repeat top center;
+    background-size:cover
+  }
+  
+   .bg-pavithra {
+      background:url("lecs/pavithra.jpg") no-repeat top center;
+    background-size:cover
+  }
+  
+   .bg-gayam {
+      background:url("https://nsbm.ac.lk/wp-content/uploads/elementor/thumbs/E87A2335-q1wigdjfalumryxbwi3kq9cg5lurouhpv6o4jze1j4.jpg") no-repeat top center;
+    background-size:cover
+  }
+   .bg-dulanjali {
+      background:url("https://nsbm.ac.lk/wp-content/uploads/elementor/thumbs/Dulanjali-1-q1wigcll3rtcgcyp1zoy5rkzk7zeh5dzj20n2pffpc.jpg") no-repeat top center;
+    background-size:cover
+  }
+   .bg-isuru {
+      background:url("https://nsbm.ac.lk/wp-content/uploads/elementor/thumbs/E87A2225-q1wigdjfalumryxbwi3kq9cg5lurouhpv6o4jze1j4.jpg") no-repeat top center;
+    background-size:cover
+  }
+  
+
   
   .pricing ul {
     list-style-type: none;
