@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -149,80 +150,163 @@
 .nav div.media_button button.active:hover span:nth-of-type(3) {
     transform: rotate3d(0, 0, 1, -20deg);
 }
-/** code by webdevtrick ( https://webdevtrick.com ) **/
 
-  
-  .myimages {
-    display: flex;
-    overflow: hidden;
-    height: 50vw;
-    background: #333;
-  }
-  
-  .myimages img {
-    max-width: 100%;
-    vertical-align: middle;
-    border: 2px solid white;
-    box-sizing: border-box;
-    transition: opacity .2s;
-  }
-  
-  .myimages:hover img {
-    opacity: 0.5;
-  }
-  
-  .myimages img:hover {
-    opacity: 1;
-  }
-  
-  .first-column {
-    animation: var(--animation, none) 16s infinite linear;
-  }
-  
-  .first-column:hover {
-    animation-play-state: paused;
-  }
-  
-  .first-column:nth-of-type(odd) {
-    align-self: flex-end;
-    --direction: 50%;
-  }
-  .bordr{
-    background-color: #0dbb47;
-  }
+/* Home section */
 
-  
-  
-  @keyframes slide {
-    to {
-      -webkit-transform: translateY(var(--direction, -50%));
-              transform: translateY(var(--direction, -50%));
+
+
+/* Medai qurey section */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    .container{
+        margin: 5%;
+        
     }
     
-  }
+}
 
-  .mb-0{
-    font-size: x-large;
-    font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
-  .blockquote-footer{
-    font-size: medium;
-    font-weight: bold;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
-  }
-  h2{
-    font-size: xx-large;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-  .carousel-inner img{
-    background-size: auto;
-    align-items: right;
-    position: absolute;
-  }
+@media screen and (max-width:768px) {
+    
+    .container{
+        margin: 5%;
+    }
+    
+    .nav div.logo{
+        margin-left: 15px;
+    }
+    
+    .nav div.main_list{
+        width: 100%;
+        margin-top: 65px;
+        height: 0px;
+        overflow: hidden;
+    }
+    
+    .nav div.show_list{
+        height: 200px;
+    }
+    
+    .nav div.main_list ul{
+        flex-direction: column;
+        width: 100%;
+        height: 200px;
+        top: 80px;
+        right: 0;
+        left: 0;
+    }
+    
+ 
+    .nav div.main_list ul li a{
+      text-align: center;
+        line-height: 40px;
+        width: 100%;
+        height: 40px;
+        display: table;
+    }
+    
+    .nav div.media_button{
+        display: block;
+    }
 
-  ul {
+    .carousel-inner .carousel-item.d-block {
+        
+        
+        width: 100%;
+        height: 50px;
+        position: fixed;
+    } 
+    .carousel-item {
+      
+        height: 32rem;
+        position: fixed;
+
+    }
+    .Slide{
+        
+        height: 32rem;
+        position: fixed;
+      
+
+    }
+    section{
+        position: fixed;
+    }
+    .d-block{
+        width: 100%;
+        height: 50px;
+        position: fixed;
+    }
+   .overlay-image{
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        right: 0;
+        left: 0;
+        background-position: center;
+        background-size: cover;
+        
+
+
+
+    }
+   .mb-4{
+    background-image: url(1.jpg);
+   }
+   .main{
+    background-image: url(https://www.nsbm.ac.lk/wp-content/uploads/2019/09/foc_bg.jpg);
+   }
+   .hr{
+    background-color: #0dbb47;
+    color: #0dbb47;
+    border-color: #0dbb47;
+   }
+   main.card-group.card.card-img-top.card-body.card-title{
+    -webkit-text-fill-color: #0dbb47;
+   }
+   /* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+}
+
+
+
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    outline: none;
+}
+
+a,
+a:active,
+a:focus {
+    color: #6f6f6f;
+    text-decoration: none;
+    transition-timing-function: ease-in-out;
+    -ms-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-duration: .2s;
+    -ms-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;
+}
+
+ul {
     margin: 0;
     padding: 0;
     list-style: none;
